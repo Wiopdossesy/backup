@@ -12,9 +12,9 @@ from faker import Faker
 from multiprocessing import Process
 import threading
 stopuser = {}
-token = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
+token = '7341725048:AAEwLgdXt2VGGFbku8ao1I9A6Y07urihWnQ'
 bot=telebot.TeleBot(token,parse_mode="HTML")
-admin=6574060333
+admin=5344482379
 f = Faker()
 name = f.name()
 street = f.address()
@@ -55,13 +55,13 @@ def start(message):
 		if BL == '𝗙𝗥𝗘𝗘':	
 			keyboard = types.InlineKeyboardMarkup()
 			ahmedhusien = types.InlineKeyboardMarkup(row_width=1)
-			ahmed = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/lakshayfr")
-			contact_button = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+			ahmed = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Naughtyxd")
+			contact_button = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/h")
 			keyboard.add(contact_button, ahmed)
 			video_url = f'https://t.me/LakshayKaProBot/2'
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
    
-Hello Welcome to Hyper Checker\n
+Hello Welcome to Naughty Checker\n
 Status-ALIVE\n
 Use /cmds TO KNOW COMMANDS\n
 YOUR CURRENT PLAN IS :  {BL}</b>
