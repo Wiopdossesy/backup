@@ -611,7 +611,7 @@ YOUR CURRENT PLAN IS : {BL}</b>
 				'last_time': datetime.now()
 			}
 	if command_usage[idt]['last_time'] is not None:
-		time_diff 8= (current_time - command_usage[idt]['last_time']).seconds
+		time_diff = (current_time - command_usage[idt]['last_time']).seconds
 		if time_diff < 30:
 			bot.reply_to(message, f"<b>Try again after {30-time_diff} seconds.</b>",parse_mode="HTML")
 			return	
